@@ -13,7 +13,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src="https://avatars2.githubusercontent.com/u/44978186?s=460&u=8a6a14f942da268b526bd8f7783934348e448b27&v=4"
                 alt="avatar"
                 style={{height: '200px'}}
                  />
@@ -22,7 +22,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Nanyonjo Irene</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>I'm Nanyonjo Irene,  a software engineer who has mastered advanced programming skills while developing for 2 amount of years working with 3 languages..</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
             <p> Kampala - Uganda</p>
@@ -41,14 +41,14 @@ class Resume extends Component {
             <Education
               startYear={2018}
               endYear={2019}
-              schoolName="Kampabits"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolName="Kampabits(Certificate in ICT and MultiMedia)"
+              schoolDescription="Empowering Youth through ICT. Kampabits leverages ICT to give the youth from less previledged communities a chance to be employed."
                />
 
                <Education
                  startYear={2019}
                  endYear={2019}
-                 schoolName="Tunga Women In Tech Program"
+                 schoolName="Tunga Women In Tech Program(Certificate in Advanced computer Programming Skills)"
                  schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
                   />
 
@@ -56,8 +56,8 @@ class Resume extends Component {
             <Education
               startYear={2020}
               endYear={2021}
-              schoolName="Micoverse"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolName="Micoverse(Certificate in Full Stack Web Development)"
+              schoolDescription="A global school for software develpers where students pay nothing until they land a job that pays $1000 and above"
                />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -73,7 +73,7 @@ class Resume extends Component {
               <h2>Skills</h2>
               <Skills
                 skill="javascript"
-                progress={50}
+                progress={80}
                 />
                 <Skills
                   skill="HTML/CSS"
@@ -85,7 +85,7 @@ class Resume extends Component {
                     />
                     <Skills
                       skill="Ruby on Rails"
-                      progress={80}
+                      progress={90}
                       />
                        <Skills
                       skill="Django Rest Framework"

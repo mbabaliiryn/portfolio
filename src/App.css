@@ -16,6 +16,10 @@
   height: 100%;
 }
 
+.projects-grid rails {
+  display: flex;
+}
+
 .projects-grid {
   display: flex;
 }
@@ -74,6 +78,7 @@
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+  border-radius: 50%;
 }
 
 .banner-text {
