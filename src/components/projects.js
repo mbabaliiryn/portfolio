@@ -113,11 +113,11 @@ class Projects extends Component {
               An app that allows registered users to create posts. Only a registered user can see the name of the post creator. The app allows all registered members to comment on posts. Only the post creator can delete their posts.
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/nyatindopatrick/members-only" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="http://members-gossips.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -132,11 +132,11 @@ class Projects extends Component {
               An app that works like Eventribe. Registered users can create events and invite other registered users to attend their events. The invited member receives the invitation via email and accepts the invite from the website.
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/Private-events" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://private-events-lotr.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -151,11 +151,11 @@ class Projects extends Component {
               An app that allows developers and managers to create tasks and projects. The app includes external tasks that belong to a projects and all tasks created by the logged in user
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/developer_platform" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://engineerplatform.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
