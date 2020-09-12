@@ -1,13 +1,13 @@
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4;
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4;
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   text-align: center;
   position: fixed;
   top: 0;
@@ -16,17 +16,13 @@
   height: 100%;
 }
 
-.projects-grid rails {
-  display: flex;
-}
-
 .projects-grid {
   display: flex;
 }
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
+  background: #27221f;
   color: white;
   padding: 2em;
 }
@@ -72,9 +68,7 @@
   padding-right: 5rem;
 }
 
-
 /* contact page css */
-
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -83,7 +77,7 @@
 
 .banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
