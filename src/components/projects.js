@@ -29,7 +29,7 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://mbabaliiryn.github.io/react-calculator/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -117,7 +117,7 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="http://members-gossips.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+              <a href="https://members-gossips.herokuapp.com" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -136,7 +136,7 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="https://private-events-lotr.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+              <a href="https://private-events-lotr.herokuapp.com" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -155,7 +155,7 @@ class Projects extends Component {
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="https://engineerplatform.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+              <a href="https://engineerplatform.herokuapp.com" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -175,11 +175,11 @@ class Projects extends Component {
               App an that allows all users to search for the the Weather details by cities or countries. The user can get else get weaher details in celcius or Fahreinheit by clicking the toggle.
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/Weather_App" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://raw.githack.com/mbabaliiryn/Weather_App/feature/dist/index.html" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -194,11 +194,11 @@ class Projects extends Component {
               The game is intended to determine how fast a player can collect enough coins against the man-eater fishes in the next level. Press the up, dowm, right and left to move the guy.
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/Phaser_Game" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://mbabaliiryn.github.io/Phaser_Game/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -213,11 +213,11 @@ class Projects extends Component {
               An app that allow users to create, edit and delete tasks, which organized into projects.
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/TodoList" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://tender-pasteur-b97fee.netlify.app/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
