@@ -61,16 +61,16 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/25789009/94415516-4c2a0600-0186-11eb-93e8-470bc590e32a.png) center / cover' }}>React Project #3</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/96592907-97e94e80-12f1-11eb-9117-74a159145c23.png) center / cover' }}></CardTitle>
             <CardText>
-              A user has the ability to create a book with a category for example. A user has the ability to search a book by it's category.
+              User can create various activities and monitor his or her progress.
             </CardText>
             <CardActions border>
-              <a href="https://github.com/mbabaliiryn/react-book-store" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/final_capstone_frontend" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="https://mbabaliiryn.github.io/react-book-store/" rel="noopener noreferrer" target="_blank">
+              <a href="https://gracious-blackwell-9534ef.netlify.app/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -185,25 +185,6 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93585445-7ffb7380-f9af-11ea-827e-8f1df1fd5c8b.png) center / cover' }}></CardTitle>
-            <CardText>
-              An app that allow users to create, edit and delete tasks, which organized into projects.
-            </CardText>
-            <CardActions border>
-              <a href="https://github.com/mbabaliiryn/TodoList" rel="noopener noreferrer" target="_blank">
-                <Button colored>GitHub</Button>
-
-              </a>
-              <a href="https://tender-pasteur-b97fee.netlify.app/" rel="noopener noreferrer" target="_blank">
-                <Button colored>Live Demo</Button>
-
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
         </div>
       );
     }
