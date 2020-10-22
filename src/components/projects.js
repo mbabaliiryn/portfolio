@@ -185,6 +185,25 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93585445-7ffb7380-f9af-11ea-827e-8f1df1fd5c8b.png) center / cover' }}></CardTitle>
+            <CardText>
+              An app that allow users to create, edit and delete tasks, which organized into projects.
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/mbabaliiryn/TodoList" rel="noopener noreferrer" target="_blank">
+                <Button colored>GitHub</Button>
+
+              </a>
+              <a href="https://rawcdn.githack.com/mbabaliiryn/TodoList/4631000974757b74c239e014a42b637663c112d5/dist/index.html" rel="noopener noreferrer" target="_blank">
+                <Button colored>Live Demo</Button>
+
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: '#fff' }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     }
