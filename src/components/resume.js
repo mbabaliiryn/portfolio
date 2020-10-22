@@ -67,15 +67,6 @@ class Resume extends Component {
             />
             <hr />
 
-            <h2>Experience</h2>
-
-            <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="Intership"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-            />
-
             <h2>Skills</h2>
             <Skills
               skill="javascript"
