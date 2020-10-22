@@ -3,7 +3,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Footer from './footer';
+// import Footer from './footer';
 
 class Landing extends Component {
   render() {
@@ -41,9 +41,9 @@ class Landing extends Component {
           </Cell>
         </Grid>
       </div>
-      <div className="footer-main-page">
+      {/* <div className="footer">
         <Footer />
-      </div>
+      </div> */}
       </div>
     );
   }

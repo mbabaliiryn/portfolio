@@ -10,19 +10,13 @@
   height: 100%;
 }
 
-.footer-main-page  {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 .projects-grid {
   display: flex;
 }
 
 /* Resume Page css */
 .resume-right-col {
-  background-color: olivedrab;
+  background-color: rgb(93, 121, 37);
   color: white;
   padding: 2em;
 }
@@ -44,7 +38,7 @@
   width: 80%;
   height: 550px;
   background: white;
-  color: black;
+  color:  olivedrab;
   margin-bottom: 20px;
 }
 
@@ -76,7 +70,7 @@
 }
 
 .banner-text {
-  background-color: black;
+  background-color: rgb(10, 10, 126);
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -125,4 +119,21 @@ hr {
 
 .progressbar.bar.bar1 {
   background: white;
+}
+
+.footer-main-page  {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.global-footer {
+  background-color: rgb(10, 10, 126);
+  width: 100%;
+  padding: 50px;
+}
+
+.social-media {
+  color: #fff;
+  margin-left: 2px;
 }

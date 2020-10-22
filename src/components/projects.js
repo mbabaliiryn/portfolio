@@ -204,7 +204,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          <p>ghgkjhlkkjl;k;l</p>
         </div>
       );
     }
@@ -215,7 +214,7 @@ class Projects extends Component {
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={tabId => this.setState({ activeTab: tabId })} ripple>
           <Tab>React</Tab>
-          <Tab>React Redux</Tab>
+          <Tab></Tab>
           <Tab>Ruby on Rails</Tab>
           <Tab>JavaScript</Tab>
         </Tabs>
@@ -225,7 +224,7 @@ class Projects extends Component {
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
-        <p>ghgkjhlkkjl;k;l</p>
+
         <Footer />
 
       </div>

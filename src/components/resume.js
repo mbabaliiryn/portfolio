@@ -24,7 +24,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{ paddingTop: '2em' }}>Nanyonjo Irene</h2>
-            <h4 style={{ color: 'grey' }}>Programmer</h4>
+            <h4 style={{ color: 'grey' }}>Software Developer</h4>
             <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
             <p>I'm Nanyonjo Irene,  a software engineer who has mastered advanced programming skills while developing for 2 amount of years working with 3 languages..</p>
             <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
@@ -52,7 +52,11 @@ class Resume extends Component {
               startYear={2019}
               endYear={2019}
               schoolName="Tunga Women In Tech Program(Certificate in Advanced computer Programming Skills)"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              schoolDescription="Mastered advanced skills in computer programming using Django,
+              Django Rest Framework and bootstrap.
+              Developed skills in pair-programming using GitHub,
+              industry-standard git-flow, and collaborate with senior software
+              developers."
             />
 
             <Education
