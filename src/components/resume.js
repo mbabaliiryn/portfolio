@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
@@ -6,6 +7,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Footer from './footer';
 
 class Resume extends Component {
   render() {
@@ -23,9 +25,9 @@ class Resume extends Component {
 
             <h2 style={{ paddingTop: '2em' }}>Nanyonjo Irene</h2>
             <h4 style={{ color: 'grey' }}>Programmer</h4>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
             <p>I'm Nanyonjo Irene,  a software engineer who has mastered advanced programming skills while developing for 2 amount of years working with 3 languages..</p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
             <h5>Address</h5>
             <p> Kampala - Uganda</p>
             <h5>Phone</h5>
@@ -34,7 +36,7 @@ class Resume extends Component {
             <p>mbabaliiryn@gmail.com</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
-            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -59,7 +61,7 @@ class Resume extends Component {
               schoolName="Micoverse(Certificate in Full Stack Web Development)"
               schoolDescription="A global school for software develpers where students pay nothing until they land a job that pays $1000 and above"
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <hr />
 
             <h2>Experience</h2>
 
@@ -99,7 +101,7 @@ class Resume extends Component {
               skill="React Redux"
               progress={80}
             />
-            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <hr />
             <h2>Deployment</h2>
             <Skills
               skill="Heroku"
@@ -111,6 +113,8 @@ class Resume extends Component {
             />
           </Cell>
         </Grid>
+        <Footer />
+
       </div>
     );
   }

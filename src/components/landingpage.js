@@ -3,10 +3,12 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Footer from './footer';
 
 class Landing extends Component {
   render() {
     return (
+      <div>
       <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className="landing-grid">
           <Cell col={12}>
@@ -38,6 +40,10 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
+      </div>
+      <div className="footer-main-page">
+        <Footer />
+      </div>
       </div>
     );
   }

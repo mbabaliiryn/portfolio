@@ -1,3 +1,4 @@
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable max-len */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/no-unescaped-entities */
@@ -7,6 +8,7 @@ import React, { Component } from 'react';
 import {
   Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton,
 } from 'react-mdl';
+import Footer from './footer';
 
 class Projects extends Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>Calculator</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93586073-758da980-f9b0-11ea-9fe1-460336885c80.png) center / cover' }}></CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
@@ -39,17 +41,17 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>React Project #2</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/94404646-023a2380-0178-11eb-92fc-76c5909f4c56.png) center / cover' }}></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              A user has the ability to filter a group of the commodities by their company name for example. A user has the ability to view each commodity in details by clicking a details button provided below each commodity.
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/react-capstone" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
 
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://mbabaliiryn.github.io/react-capstone/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -59,16 +61,16 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }}>React Project #3</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/25789009/94415516-4c2a0600-0186-11eb-93e8-470bc590e32a.png) center / cover' }}>React Project #3</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              A user has the ability to create a book with a category for example. A user has the ability to search a book by it's category.
             </CardText>
             <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/mbabaliiryn/react-book-store" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>
 
               </a>
-              <a href="#" rel="noopener noreferrer" target="_blank">
+              <a href="https://mbabaliiryn.github.io/react-book-store/" rel="noopener noreferrer" target="_blank">
                 <Button colored>Live Demo</Button>
 
               </a>
@@ -78,37 +80,13 @@ class Projects extends Component {
         </div>
 
       );
-    } if (this.state.activeTab === 1) {
-      return (
-        <div className="projects-grid">
-          {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpWBI4m4qlRG0fTzLLd_JjxBxOmP0YD6m_sw&usqp=CAU) center / cover' }}>React Project #1</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <a href="#" rel="noopener noreferrer" target="_blank">
-                <Button colored>GitHub</Button>
-
-              </a>
-
-              <a href="#" rel="noopener noreferrer" target="_blank">
-                <Button colored>Live Demo</Button>
-
-              </a>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }} />
-          </Card>
-
-        </div>
-      );
-    } if (this.state.activeTab === 2) {
+    }
+    if (this.state.activeTab === 2) {
       return (
         <div className="projects-grid rails">
           {/* Project 1 */}
           <Card shadow={5} style={{ minWidth: '100', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVFv-D-O_Vlat3wB6P0VaP59iao_vlJ2H8kw&usqp=CAU) center / cover' }}>Gossip App</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93582762-99022580-f9ab-11ea-811b-39d208da52ad.png) center / cover' }}>Gossip App</CardTitle>
             <CardText>
               An app that allows registered users to create posts. Only a registered user can see the name of the post creator. The app allows all registered members to comment on posts. Only the post creator can delete their posts.
             </CardText>
@@ -127,7 +105,7 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: '100', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVFv-D-O_Vlat3wB6P0VaP59iao_vlJ2H8kw&usqp=CAU) center / cover' }}>Private Events App</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93583044-fbf3bc80-f9ab-11ea-929b-f283343c64eb.png) center / cover' }}></CardTitle>
             <CardText>
               An app that works like Eventribe. Registered users can create events and invite other registered users to attend their events. The invited member receives the invitation via email and accepts the invite from the website.
             </CardText>
@@ -146,7 +124,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: '100', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVFv-D-O_Vlat3wB6P0VaP59iao_vlJ2H8kw&usqp=CAU) center / cover' }}>Software Engineer Platform</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93583697-e59a3080-f9ac-11ea-9a65-37b9af59f1c7.png) center / cover' }}></CardTitle>
             <CardText>
               An app that allows developers and managers to create tasks and projects. The app includes external tasks that belong to a projects and all tasks created by the logged in user
             </CardText>
@@ -170,7 +148,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRai2Iuz8EhUPnFUMaL4MxXn4NlbGIkcbmCNA&usqp=CAU) center / cover' }}>Weather App</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93584124-8ab50900-f9ad-11ea-9ccf-5a1c4dca8bdd.png) center / cover' }}></CardTitle>
             <CardText>
               App an that allows all users to search for the the Weather details by cities or countries. The user can get else get weaher details in celcius or Fahreinheit by clicking the toggle.
             </CardText>
@@ -189,7 +167,7 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRai2Iuz8EhUPnFUMaL4MxXn4NlbGIkcbmCNA&usqp=CAU) center / cover' }}>Phaser Game</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93585753-f0a29000-f9af-11ea-968e-8517af6d8ace.png) center / cover' }}></CardTitle>
             <CardText>
               The game is intended to determine how fast a player can collect enough coins against the man-eater fishes in the next level. Press the up, dowm, right and left to move the guy.
             </CardText>
@@ -208,7 +186,7 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRai2Iuz8EhUPnFUMaL4MxXn4NlbGIkcbmCNA&usqp=CAU) center / cover' }}>TodoList App</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93585445-7ffb7380-f9af-11ea-827e-8f1df1fd5c8b.png) center / cover' }}></CardTitle>
             <CardText>
               An app that allow users to create, edit and delete tasks, which organized into projects.
             </CardText>
@@ -226,6 +204,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          <p>ghgkjhlkkjl;k;l</p>
         </div>
       );
     }
@@ -246,6 +225,8 @@ class Projects extends Component {
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
+        <p>ghgkjhlkkjl;k;l</p>
+        <Footer />
 
       </div>
     );

@@ -1,13 +1,7 @@
-.header-color {
-  background: #833ab4;
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-}
-
 .landing-grid {
-  background: #833ab4;
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  /* background: #833ab4; */
+  /* background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
   text-align: center;
   position: fixed;
   top: 0;
@@ -16,13 +10,19 @@
   height: 100%;
 }
 
+.footer-main-page  {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .projects-grid {
   display: flex;
 }
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221f;
+  background-color: olivedrab;
   color: white;
   padding: 2em;
 }
@@ -112,4 +112,17 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+hr {
+  color: aliceblue;
+}
+
+.progressbar 
+.bar {
+  background-color: aliceblue;
+}
+
+.progressbar.bar.bar1 {
+  background: white;
 }
