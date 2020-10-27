@@ -24,7 +24,8 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93586073-758da980-f9b0-11ea-9fe1-460336885c80.png) center / cover' }}></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              The app allows users to perform mathematical calculations with plus, divide, add and subtract.
+              A user can clear details and restart again.
             </CardText>
             <CardActions border>
               <a href="https://github.com/mbabaliiryn/react-calculator" rel="noopener noreferrer" target="_blank">
@@ -43,7 +44,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/94404646-023a2380-0178-11eb-92fc-76c5909f4c56.png) center / cover' }}></CardTitle>
             <CardText>
-              A user has the ability to filter a group of the commodities by their company name for example. A user has the ability to view each commodity in details by clicking a details button provided below each commodity.
+              A user can filter a group of the commodities by their company name for example. A user can view each commodity in details by clicking a details button.
             </CardText>
             <CardActions border>
               <a href="https://github.com/mbabaliiryn/react-capstone" rel="noopener noreferrer" target="_blank">
@@ -126,7 +127,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '100', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93583697-e59a3080-f9ac-11ea-9a65-37b9af59f1c7.png) center / cover' }}></CardTitle>
             <CardText>
-              An app that allows developers and managers to create tasks and projects. The app includes external tasks that belong to a projects and all tasks created by the logged in user
+              An app that allows developers and managers to create tasks and projects. The app includes external tasks that belong to projects and all tasks created by the logged-in user
             </CardText>
             <CardActions border>
               <a href="https://github.com/mbabaliiryn/developer_platform" rel="noopener noreferrer" target="_blank">
@@ -150,7 +151,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93584124-8ab50900-f9ad-11ea-9ccf-5a1c4dca8bdd.png) center / cover' }}></CardTitle>
             <CardText>
-              App an that allows all users to search for the the Weather details by cities or countries. The user can get else get weaher details in celcius or Fahreinheit by clicking the toggle.
+              An app that allows all users to search for the Weather details by cities or countries. The user can get else get weather details in Celcius or Fahrenheit by clicking the toggle.
             </CardText>
             <CardActions border>
               <a href="https://github.com/mbabaliiryn/Weather_App" rel="noopener noreferrer" target="_blank">
@@ -169,7 +170,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93585753-f0a29000-f9af-11ea-968e-8517af6d8ace.png) center / cover' }}></CardTitle>
             <CardText>
-              The game is intended to determine how fast a player can collect enough coins against the man-eater fishes in the next level. Press the up, dowm, right and left to move the guy.
+              The game is intended to determine how fast a player can collect enough coins against the man-eater fishes in the next level. Press the up, down, right and left to move the guy.
             </CardText>
             <CardActions border>
               <a href="https://github.com/mbabaliiryn/Phaser_Game" rel="noopener noreferrer" target="_blank">
@@ -188,7 +189,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://user-images.githubusercontent.com/44978186/93585445-7ffb7380-f9af-11ea-827e-8f1df1fd5c8b.png) center / cover' }}></CardTitle>
             <CardText>
-              An app that allow users to create, edit and delete tasks, which organized into projects.
+              An app that allows users to create, edit and delete tasks, which organized into projects.
             </CardText>
             <CardActions border>
               <a href="https://github.com/mbabaliiryn/TodoList" rel="noopener noreferrer" target="_blank">

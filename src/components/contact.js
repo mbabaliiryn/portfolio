@@ -16,7 +16,7 @@ class Contact extends Component {
               alt="avatar"
               style={{ height: '250px' }}
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>  a software engineer who has mastered advanced programming skills while developing for 2 amount of years working with 3 languages</p>
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>  I am a software engineer and have developed advanced programming skills in three coding languages</p>
 
           </Cell>
           <Cell col={6}>

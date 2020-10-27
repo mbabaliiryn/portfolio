@@ -26,7 +26,7 @@ class Resume extends Component {
             <h2 style={{ paddingTop: '2em' }}>Nanyonjo Irene</h2>
             <h4 style={{ color: 'grey' }}>Software Developer</h4>
             <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
-            <p>I'm Nanyonjo Irene,  a software engineer who has mastered advanced programming skills while developing for 2 amount of years working with 3 languages..</p>
+            <p>I'm Nanyonjo Irene,  I am a software engineer and have developed advanced programming skills in three coding languages</p>
             <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
             <h5>Address</h5>
             <p> Kampala - Uganda</p>
@@ -34,9 +34,6 @@ class Resume extends Component {
             <p>(+256) 758-323723</p>
             <h5>Email</h5>
             <p>mbabaliiryn@gmail.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{ borderTop: '3px solid  olivedrab', width: '50%' }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
